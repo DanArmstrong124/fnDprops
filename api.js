@@ -6,7 +6,6 @@ request.open('GET', 'https://api.sportsdata.io/v3/mlb/scores/json/AreAnyGamesInP
 request.onload = function () {
   // Begin accessing JSON data here
   }
-}
 
 // Send request
 request.send()
